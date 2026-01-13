@@ -9,7 +9,7 @@ export default function About() {
           <div className="md:w-1/3 mb-8 md:mb-0">
             <Image
               src="https://pub-08f4197c0606490b93ebe64b7203e96f.r2.dev/th3%20(1).jpeg"
-              alt="Nathan Sterling"
+              alt="Tiago Henrique"
               width={400}
               height={400}
               className="rounded-lg mx-auto object-cover"

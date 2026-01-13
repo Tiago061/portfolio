@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image"
 import { motion } from "framer-motion"
 
@@ -6,20 +7,20 @@ const projects = [
     title: "E-commerce Platform",
     description:
       "A full-stack e-commerce solution for electronic products, featuring a modern UI and seamless shopping experience.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-zqpHhsf81oPZVOdUA76ZWnojTvnpFN.png",
+    image: "https://pub-08f4197c0606490b93ebe64b7203e96f.r2.dev/appgaleriafotos.png",
     tags: ["React", "Node.js", "MongoDB", "Express"],
   },
   {
     title: "Agency Website",
     description: "A dark-themed, modern agency website with dynamic animations and creative portfolio showcase.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-XBQiY8S0RicSuHjJrGUi6RxTSeYqDd.png",
+    image: "https://pub-08f4197c0606490b93ebe64b7203e96f.r2.dev/appgaleriafotos.png",
     tags: ["Next.js", "Framer Motion", "Tailwind CSS"],
   },
   {
     title: "Task Management App",
     description:
       "A minimal, intuitive task management mobile app with calendar integration and team collaboration features.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-yWmQwH731Kf47Yedzhh115n7817YSJ.png",
+    image: "https://pub-08f4197c0606490b93ebe64b7203e96f.r2.dev/appgaleriafotos.png",
     tags: ["React Native", "TypeScript", "Node.js"],
   },
 ]
