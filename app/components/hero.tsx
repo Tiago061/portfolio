@@ -13,7 +13,7 @@ export default function Hero() {
               as="button"
               className="bg-tertiary text-quaternary px-6 py-3 rounded-full font-semibold hover:bg-secondary transition-colors"
               color="cyan"
-              speed="5s"
+              speed="3s"
             >
               <a href="#projects">
                 View My Work
