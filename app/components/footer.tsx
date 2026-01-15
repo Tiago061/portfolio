@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-primary text-quaternary py-8">
+    <footer className="bg-primarySolid text-quaternary py-8">
       <div className="container mx-auto px-6 text-center">
         <p>&copy; {new Date().getFullYear()} Tiago Henrique. All rights reserved.</p>
         <div className="mt-4">
