@@ -1,4 +1,5 @@
 import Image from "next/image"
+import StarBorder from './StarBorder'
 
 export default function Hero() {
   return (
@@ -8,12 +9,16 @@ export default function Hero() {
           <h1 className="text-4xl md:text-6xl font-bold mb-4">Tiago Henrique</h1>
           <h2 className="text-2xl md:text-3xl mb-6">Full Stack Developer</h2>
           <p className="text-lg mb-8">Full Stack Developer specialized in building scalable, high-performance, results-driven solutions, integrating intuitive frontends with robust backends. </p>
-          <a
-            href="#projects"
-            className="bg-tertiary text-quaternary px-6 py-3 rounded-full font-semibold hover:bg-secondary transition-colors"
-          >
-            View My Work
-          </a>
+          <StarBorder
+              as="button"
+              className="bg-tertiary text-quaternary px-6 py-3 rounded-full font-semibold hover:bg-secondary transition-colors"
+              color="cyan"
+              speed="5s"
+            >
+              <a href="#projects">
+                View My Work
+              </a>
+          </StarBorder>
         </div>
         <div className="md:w-1/2 mt-12 md:mt-0">
           <Image
@@ -24,6 +29,7 @@ export default function Hero() {
             className="rounded-lg mx-auto object-cover"
             priority
           />
+          
         </div>
       </div>
     </section>
