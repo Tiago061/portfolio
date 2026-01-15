@@ -49,10 +49,10 @@ const config: Config = {
         },
 
         // 🎨 cores customizadas
-        primarySolid: "#4B5945",
-        secondarySolid: "#66785F",
-        tertiary: "#91AC8F",
-        quaternary: "#B2C9AD",
+        primarySolid: "#0C2B4E",
+        secondarySolid: "#4A70A9",
+        tertiary: "#1A3D64",
+        quaternary: "#8FABD4",
       },
       borderRadius: {
         lg: "var(--radius)",
