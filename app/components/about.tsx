@@ -8,7 +8,7 @@ export default function About() {
         <div className="md:flex md:items-center">
           <div className="md:w-1/3 mb-8 md:mb-0">
             <Image
-              src="https://pub-08f4197c0606490b93ebe64b7203e96f.r2.dev/th3%20(1).jpeg"
+              src="https://pub-08f4197c0606490b93ebe64b7203e96f.r2.dev/th1.jpeg"
               alt="Tiago Henrique"
               width={400}
               height={400}
