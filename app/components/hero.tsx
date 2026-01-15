@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="md:w-1/2">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">Tiago Henrique</h1>
           <h2 className="text-2xl md:text-3xl mb-6">Full Stack Developer</h2>
-          <p className="text-lg mb-8">Crafting modern, responsive, and user-friendly web experiences.</p>
+          <p className="text-lg mb-8">Full Stack Developer specialized in building scalable, high-performance, results-driven solutions, integrating intuitive frontends with robust backends. </p>
           <a
             href="#projects"
             className="bg-tertiary text-primary px-6 py-3 rounded-full font-semibold hover:bg-secondary transition-colors"
