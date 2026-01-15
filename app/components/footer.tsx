@@ -13,7 +13,7 @@ export default function Footer() {
             GitHub
           </a>
           <a
-            href="www.linkedin.com/in/tiago-henrique061"
+            href="https://www.linkedin.com/in/tiago-henrique061"
             target="_blank"
             rel="noopener noreferrer"
             className="text-quaternary hover:text-tertiary"
