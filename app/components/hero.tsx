@@ -10,7 +10,7 @@ export default function Hero() {
           <p className="text-lg mb-8">Full Stack Developer specialized in building scalable, high-performance, results-driven solutions, integrating intuitive frontends with robust backends. </p>
           <a
             href="#projects"
-            className="bg-tertiary text-primarySolid px-6 py-3 rounded-full font-semibold hover:bg-secondary transition-colors"
+            className="bg-tertiary text-quaternary px-6 py-3 rounded-full font-semibold hover:bg-secondary transition-colors"
           >
             View My Work
           </a>
