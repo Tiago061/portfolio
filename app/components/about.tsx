@@ -17,7 +17,7 @@ export default function About() {
           </div>
           <div className="md:w-2/3 md:pl-12">
             <p className="mb-4">
-              Hello! I&#39m Tiago Henrique, a Full Stack Developer, with experience in building modern, scalable, and performance-driven web applications. I work across both frontend and backend, using technologies such as React, Next.js, Node.js, and TypeScript, as well as relational and non-relational databases.
+              Hello! I&#39;m Tiago Henrique, a Full Stack Developer, with experience in building modern, scalable, and performance-driven web applications. I work across both frontend and backend, using technologies such as React, Next.js, Node.js, and TypeScript, as well as relational and non-relational databases.
             </p>
             <p className="mb-4">
               I also have experience with Java and Spring Boot for developing robust and secure APIs, along with knowledge of Python for backend support solutions. I have a proactive mindset, a strong problem-solving approach, and a continuous drive to improve my technical skills by applying best practices and clean architecture principles.
