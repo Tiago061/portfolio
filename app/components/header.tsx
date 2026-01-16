@@ -3,7 +3,7 @@ import { useEffect } from "react"
 
 export default function Header(){
     useEffect(() => {
-      const smoothScroll = (e: MouseEvent) => {
+      const smoothScroll = (e: Event) => {
         const target = e.target as HTMLAnchorElement
 
         if(target.hash){
