@@ -1,21 +1,21 @@
 const testimonials = [
   {
-    name: "Jane Doe",
-    company: "Tech Innovators Inc.",
+    name: "Davi Dias",
+    company: "Compass UOL",
     testimonial:
-      "Nathan's expertise in both design and development made our project a breeze. He delivered a stunning website that exceeded our expectations.",
+      "I worked with Tiago during my internship at Compass. He is a great professional and, during the projects, it was a very positive experience collaborating with him. Always communicative, he was always willing to find solutions to the challenges of development.",
   },
   {
-    name: "John Smith",
-    company: "Creative Solutions LLC",
+    name: "",
+    company: "",
     testimonial:
-      "Working with Nathan was a pleasure. His attention to detail and problem-solving skills are unmatched. I highly recommend his services.",
+      "",
   },
   {
-    name: "Emily Johnson",
-    company: "StartUp Ventures",
+    name: "",
+    company: "",
     testimonial:
-      "Nathan's ability to translate our vision into a functional and beautiful website was impressive. He's a true professional in every sense.",
+      "",
   },
 ]
 
@@ -23,7 +23,7 @@ export default function Testimonials() {
   return (
     <section id="testimonials" className="py-20 bg-tertiary">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold mb-12 text-center text-primarySolid">Client Testimonials</h2>
+        <h2 className="text-3xl font-bold mb-12 text-center text-primarySolid">Testimonials</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-lg">

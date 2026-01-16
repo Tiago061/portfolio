@@ -4,24 +4,24 @@ import { motion } from "framer-motion"
 
 const projects = [
   {
-    title: "E-commerce Platform",
+    title: "SmartMart Solutions",
     description:
-      "A full-stack e-commerce solution for electronic products, featuring a modern UI and seamless shopping experience.",
-    image: "https://pub-08f4197c0606490b93ebe64b7203e96f.r2.dev/appgaleriafotos.png",
-    tags: ["React", "Node.js", "MongoDB", "Express"],
+      "SmartMart Solutions Project: This project is a full-stack application for sales and product management.",
+    image: "https://pub-08f4197c0606490b93ebe64b7203e96f.r2.dev/smartmart.png",
+    tags: ["React", "Next.js", "Python", "SQLite", "FastAPI"],
   },
   {
-    title: "Agency Website",
-    description: "A dark-themed, modern agency website with dynamic animations and creative portfolio showcase.",
-    image: "https://pub-08f4197c0606490b93ebe64b7203e96f.r2.dev/appgaleriafotos.png",
-    tags: ["Next.js", "Framer Motion", "Tailwind CSS"],
+    title: "System Academy",
+    description: "The Academic System aims to manage data on people (students and teachers), courses, and enrollments in a simple and efficient way, allowing CRUD operations and integrated queries between entities.",
+    image: "https://pub-08f4197c0606490b93ebe64b7203e96f.r2.dev/sistemaacademico.png",
+    tags: ["React,js","Next.js", "Node.js","Express", "TypeScript", "Prisma", "PostgreSQL","Tailwind CSS"],
   },
   {
     title: "Task Management App",
     description:
-      "A minimal, intuitive task management mobile app with calendar integration and team collaboration features.",
+      "Displays a photo gallery using a public image API (Unsplash). The application allows you to view initial photos, search for images by keyword in real time, and display appropriate messages when there are no results.",
     image: "https://pub-08f4197c0606490b93ebe64b7203e96f.r2.dev/appgaleriafotos.png",
-    tags: ["React Native", "TypeScript", "Node.js"],
+    tags: ["React", "TypeScript"],
   },
 ]
 
