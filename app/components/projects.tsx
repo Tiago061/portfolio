@@ -1,6 +1,7 @@
 "use client"
 import Image from "next/image"
 import { motion } from "framer-motion"
+import Link from "next/link"
 
 const projects = [
   {
@@ -9,6 +10,7 @@ const projects = [
       "SmartMart Solutions Project: This project is a full-stack application for sales and product management.",
     image: "https://pub-08f4197c0606490b93ebe64b7203e96f.r2.dev/smartmart.png",
     tags: ["React", "Next.js", "Python", "SQLite", "FastAPI"],
+    URL: "https://smartmart-solutions-murex.vercel.app/"
   },
   {
     title: "System Academy",
@@ -22,6 +24,7 @@ const projects = [
       "Displays a photo gallery using a public image API (Unsplash). The application allows you to view initial photos, search for images by keyword in real time, and display appropriate messages when there are no results.",
     image: "https://pub-08f4197c0606490b93ebe64b7203e96f.r2.dev/appgaleriafotos.png",
     tags: ["React", "TypeScript"],
+    URL: "https://aplicacao-de-galeria-de-fotos.vercel.app/"
   },
 ]
 
@@ -41,7 +44,9 @@ export default function Projects() {
               viewport={{ once: true }}
             >
               <div className="relative h-48 md:h-64">
-                <Image src={project.image || "/placeholder.svg"} alt={project.title} fill className="object-cover" />
+                <Link href={project.URL}>
+                  <Image src={project.image || "/placeholder.svg"} alt={project.title} fill className="object-cover" />
+                </Link>
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
