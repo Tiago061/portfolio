@@ -2,8 +2,9 @@
 import Image from "next/image"
 import { motion } from "framer-motion"
 import Link from "next/link"
+import iProjects from "../interfaces/iProjects"
 
-const projects = [
+const projects: iProjects[] = [
   {
     title: "SmartMart Solutions",
     description:
@@ -17,6 +18,7 @@ const projects = [
     description: "The Academic System aims to manage data on people (students and teachers), courses, and enrollments in a simple and efficient way, allowing CRUD operations and integrated queries between entities.",
     image: "https://pub-08f4197c0606490b93ebe64b7203e96f.r2.dev/sistemaacademico.png",
     tags: ["React,js","Next.js", "Node.js","Express", "TypeScript", "Prisma", "PostgreSQL","Tailwind CSS"],
+    URL: ""
   },
   {
     title: "Task Management App",
